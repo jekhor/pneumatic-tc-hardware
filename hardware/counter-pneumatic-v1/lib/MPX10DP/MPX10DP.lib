@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MPX10DP
+#
+DEF MPX10DP U 0 40 Y Y 1 L N
+F0 "U" -200 210 50 H V L BNN
+F1 "MPX10DP" -190 -371 50 H V L BNN
+F2 "SIP1067W46P254L2946H2934Q4P" 0 0 50 H I L BNN
+F3 "7.45 USD" 0 0 50 H I L BNN
+F4 "MPX10DP" 0 0 50 H I L BNN
+F5 "Pressure Sensor 0kPa to 10kPa Differential 4-Pin Case 344C-01 Tray" 0 0 50 H I L BNN
+F6 "Good" 0 0 50 H I L BNN
+F7 "SIP-4 NXP Semiconductors" 0 0 50 H I L BNN
+F8 "Freescale Semiconductor" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 200 200 200 -300 N
+P 2 0 0 10 200 -300 -200 -300 N
+P 2 0 0 10 -200 -300 -200 200 N
+P 2 0 0 10 -200 200 200 200 N
+X +VS 3 400 100 200 L 40 40 0 0 W 
+X +VOUT 2 400 0 200 L 40 40 0 0 O 
+X VOUT 4 400 -100 200 L 40 40 0 0 O 
+X GND 1 400 -200 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS1338C-18
+D DS1338C-18, Real Time Clock, 56B NVRAM, I2C Interface, SOIC-16 (Wide)
+K RTC NVRAM I2C
+F http://datasheets.maximintegrated.com/en/ds/DS1338-DS1338Z.pdf
+$ENDCMP
+#
+$CMP DS1338C-3
+D DS1338C-3, Real Time Clock, 56B NVRAM, I2C Interface, SOIC-16 (Wide)
+K RTC NVRAM I2C
+F http://datasheets.maximintegrated.com/en/ds/DS1338-DS1338Z.pdf
+$ENDCMP
+#
+$CMP DS1338C-33
+D DS1338C-33, Real Time Clock, 56B NVRAM, I2C Interface, SOIC-16 (Wide)
+K RTC NVRAM I2C
+F http://datasheets.maximintegrated.com/en/ds/DS1338-DS1338Z.pdf
+$ENDCMP
+#
+$CMP DS1338U-18
+D DS1338U-18, Real Time Clock, 56B NVRAM, I2C Interface, uSOP-8
+K RTC NVRAM I2C
+F http://datasheets.maximintegrated.com/en/ds/DS1338-DS1338Z.pdf
+$ENDCMP
+#
+$CMP DS1338U-3
+D DS1338U-3, Real Time Clock, 56B NVRAM, I2C Interface, uSOP-8
+K RTC NVRAM I2C
+F http://datasheets.maximintegrated.com/en/ds/DS1338-DS1338Z.pdf
+$ENDCMP
+#
+$CMP DS1338U-33
+D DS1338U-33, Real Time Clock, 56B NVRAM, I2C Interface, uSOP-8
+K RTC NVRAM I2C
+F http://datasheets.maximintegrated.com/en/ds/DS1338-DS1338Z.pdf
+$ENDCMP
+#
+$CMP DS1338Z-18
+D DS1338Z-18, Real Time Clock, 56B NVRAM, I2C Interface, SO-8
+K RTC NVRAM I2C
+F http://datasheets.maximintegrated.com/en/ds/DS1338-DS1338Z.pdf
+$ENDCMP
+#
+$CMP DS1338Z-3
+D DS1338Z-3, Real Time Clock, 56B NVRAM, I2C Interface, SO-8
+K RTC NVRAM I2C
+F http://datasheets.maximintegrated.com/en/ds/DS1338-DS1338Z.pdf
+$ENDCMP
+#
+$CMP DS1338Z-33
+D DS1338Z-33, Real Time Clock, 56B NVRAM, I2C Interface, SO-8
+K RTC NVRAM I2C
+F http://datasheets.maximintegrated.com/en/ds/DS1338-DS1338Z.pdf
+$ENDCMP
+#
+#End Doc Library

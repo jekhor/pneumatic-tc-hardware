@@ -1,0 +1,402 @@
+EESchema Schematic File Version 4
+LIBS:counter-pneumatic-proto-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mysensors_arduino:ArduinoProMini IC1
+U 1 1 5B041EF5
+P 6000 3300
+F 0 "IC1" H 6050 4750 40  0000 C CNN
+F 1 "ArduinoProMini" H 6050 4674 40  0000 C CNN
+F 2 "mysensors_arduino:pro_mini_china" H 6000 3300 30  0001 C CIN
+F 3 "http://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf" H 6050 4583 60  0000 C CNN
+	1    6000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5B041FCC
+P 7600 3600
+F 0 "D1" H 7592 3345 50  0000 C CNN
+F 1 "LED" H 7592 3436 50  0000 C CNN
+F 2 "" H 7600 3600 50  0001 C CNN
+F 3 "~" H 7600 3600 50  0001 C CNN
+	1    7600 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 3600 7450 3600
+$Comp
+L power:GND #PWR07
+U 1 1 5B042400
+P 8200 3600
+F 0 "#PWR07" H 8200 3350 50  0001 C CNN
+F 1 "GND" H 8205 3427 50  0000 C CNN
+F 2 "" H 8200 3600 50  0001 C CNN
+F 3 "" H 8200 3600 50  0001 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5B042498
+P 7950 3600
+F 0 "R1" V 7743 3600 50  0000 C CNN
+F 1 "330" V 7834 3600 50  0000 C CNN
+F 2 "" V 7880 3600 50  0001 C CNN
+F 3 "~" H 7950 3600 50  0001 C CNN
+	1    7950 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 3600 8100 3600
+Wire Wire Line
+	7800 3600 7750 3600
+$Comp
+L power:VCC #PWR04
+U 1 1 5B042615
+P 5050 1900
+F 0 "#PWR04" H 5050 1750 50  0001 C CNN
+F 1 "VCC" H 5067 2073 50  0000 C CNN
+F 2 "" H 5050 1900 50  0001 C CNN
+F 3 "" H 5050 1900 50  0001 C CNN
+	1    5050 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1900 5050 2200
+Wire Wire Line
+	5050 2200 5100 2200
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5B042706
+P 3600 2050
+F 0 "J1" V 3566 1862 50  0000 R CNN
+F 1 "Screw_Terminal_01x02" V 3475 1862 50  0000 R CNN
+F 2 "" H 3600 2050 50  0001 C CNN
+F 3 "~" H 3600 2050 50  0001 C CNN
+	1    3600 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 2500 4550 2500
+Wire Wire Line
+	3700 2250 3700 2500
+$Comp
+L power:GND #PWR01
+U 1 1 5B042898
+P 3600 2600
+F 0 "#PWR01" H 3600 2350 50  0001 C CNN
+F 1 "GND" H 3605 2427 50  0000 C CNN
+F 2 "" H 3600 2600 50  0001 C CNN
+F 3 "" H 3600 2600 50  0001 C CNN
+	1    3600 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2600 3600 2250
+$Comp
+L Device:CP C1
+U 1 1 5B042AE1
+P 4550 2750
+F 0 "C1" H 4668 2796 50  0000 L CNN
+F 1 "10,0x16V" H 4668 2705 50  0000 L CNN
+F 2 "" H 4588 2600 50  0001 C CNN
+F 3 "~" H 4550 2750 50  0001 C CNN
+	1    4550 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2600 4550 2500
+Connection ~ 4550 2500
+Wire Wire Line
+	4550 2500 5100 2500
+$Comp
+L power:GND #PWR02
+U 1 1 5B042BF1
+P 4550 3050
+F 0 "#PWR02" H 4550 2800 50  0001 C CNN
+F 1 "GND" H 4555 2877 50  0000 C CNN
+F 2 "" H 4550 3050 50  0001 C CNN
+F 3 "" H 4550 3050 50  0001 C CNN
+	1    4550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3050 4550 2900
+$Comp
+L power:GND #PWR03
+U 1 1 5B042D91
+P 5000 4750
+F 0 "#PWR03" H 5000 4500 50  0001 C CNN
+F 1 "GND" H 5005 4577 50  0000 C CNN
+F 2 "" H 5000 4750 50  0001 C CNN
+F 3 "" H 5000 4750 50  0001 C CNN
+	1    5000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4300 5000 4300
+Wire Wire Line
+	5000 4300 5000 4400
+Wire Wire Line
+	5100 4400 5000 4400
+Connection ~ 5000 4400
+Wire Wire Line
+	5000 4400 5000 4500
+Wire Wire Line
+	5100 4500 5000 4500
+Connection ~ 5000 4500
+Wire Wire Line
+	5000 4500 5000 4750
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5B043308
+P 8200 4350
+F 0 "J2" H 8173 4230 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8173 4321 50  0000 R CNN
+F 2 "" H 8200 4350 50  0001 C CNN
+F 3 "~" H 8200 4350 50  0001 C CNN
+	1    8200 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5B043471
+P 7900 4600
+F 0 "#PWR06" H 7900 4350 50  0001 C CNN
+F 1 "GND" H 7905 4427 50  0000 C CNN
+F 2 "" H 7900 4600 50  0001 C CNN
+F 3 "" H 7900 4600 50  0001 C CNN
+	1    7900 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4600 7900 4450
+Wire Wire Line
+	7900 4450 8000 4450
+$Comp
+L power:VCC #PWR05
+U 1 1 5B0436FB
+P 7900 4050
+F 0 "#PWR05" H 7900 3900 50  0001 C CNN
+F 1 "VCC" H 7917 4223 50  0000 C CNN
+F 2 "" H 7900 4050 50  0001 C CNN
+F 3 "" H 7900 4050 50  0001 C CNN
+	1    7900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4350 7900 4350
+Wire Wire Line
+	7900 4350 7900 4050
+Wire Wire Line
+	8000 4250 7650 4250
+Wire Wire Line
+	7650 4250 7650 4200
+Wire Wire Line
+	7650 4200 7000 4200
+Wire Wire Line
+	8000 4150 7600 4150
+Wire Wire Line
+	7600 4150 7600 4300
+Wire Wire Line
+	7600 4300 7000 4300
+$Comp
+L Amplifier_Operational:LM358 U?
+U 1 1 5B06EE31
+P 2650 5950
+F 0 "U?" H 2991 5996 50  0000 L CNN
+F 1 "LM358" H 2991 5905 50  0000 L CNN
+F 2 "" H 2650 5950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 2650 5950 50  0001 C CNN
+	1    2650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B06F282
+P 2550 6400
+F 0 "#PWR?" H 2550 6150 50  0001 C CNN
+F 1 "GND" H 2555 6227 50  0000 C CNN
+F 2 "" H 2550 6400 50  0001 C CNN
+F 3 "" H 2550 6400 50  0001 C CNN
+	1    2550 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5B06F323
+P 2550 5550
+F 0 "#PWR?" H 2550 5400 50  0001 C CNN
+F 1 "VCC" H 2567 5723 50  0000 C CNN
+F 2 "" H 2550 5550 50  0001 C CNN
+F 3 "" H 2550 5550 50  0001 C CNN
+	1    2550 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5650 2550 5550
+Wire Wire Line
+	2550 6400 2550 6250
+$Comp
+L Device:R R?
+U 1 1 5B06FD2B
+P 2050 5600
+F 0 "R?" H 2120 5646 50  0000 L CNN
+F 1 "100K" H 2120 5555 50  0000 L CNN
+F 2 "" V 1980 5600 50  0001 C CNN
+F 3 "~" H 2050 5600 50  0001 C CNN
+	1    2050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B06FDDF
+P 1800 6050
+F 0 "R?" V 1700 5850 50  0000 C CNN
+F 1 "2K2" V 1700 6000 50  0000 C CNN
+F 2 "" V 1730 6050 50  0001 C CNN
+F 3 "~" H 1800 6050 50  0001 C CNN
+	1    1800 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B070375
+P 1800 5850
+F 0 "R?" V 1593 5850 50  0000 C CNN
+F 1 "2K2" V 1684 5850 50  0000 C CNN
+F 2 "" V 1730 5850 50  0001 C CNN
+F 3 "~" H 1800 5850 50  0001 C CNN
+	1    1800 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B070450
+P 2850 6300
+F 0 "R?" V 2643 6300 50  0000 C CNN
+F 1 "100K" V 2734 6300 50  0000 C CNN
+F 2 "" V 2780 6300 50  0001 C CNN
+F 3 "~" H 2850 6300 50  0001 C CNN
+	1    2850 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 5850 2050 5850
+Wire Wire Line
+	2050 5750 2050 5850
+Connection ~ 2050 5850
+Wire Wire Line
+	2050 5850 2350 5850
+$Comp
+L power:GND #PWR?
+U 1 1 5B070FDE
+P 2300 5450
+F 0 "#PWR?" H 2300 5200 50  0001 C CNN
+F 1 "GND" H 2400 5350 50  0000 C CNN
+F 2 "" H 2300 5450 50  0001 C CNN
+F 3 "" H 2300 5450 50  0001 C CNN
+	1    2300 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5450 2300 5400
+Wire Wire Line
+	2300 5400 2050 5400
+Wire Wire Line
+	2050 5400 2050 5450
+Wire Wire Line
+	1950 6050 2200 6050
+Wire Wire Line
+	2700 6300 2200 6300
+Wire Wire Line
+	2200 6300 2200 6050
+Connection ~ 2200 6050
+Wire Wire Line
+	2200 6050 2350 6050
+Wire Wire Line
+	2950 5950 3350 5950
+Wire Wire Line
+	3000 6300 3350 6300
+Wire Wire Line
+	3350 6300 3350 5950
+Connection ~ 3350 5950
+Wire Wire Line
+	3350 5950 3850 5950
+Text Label 3450 5950 0    50   ~ 0
+PRESSURE
+Wire Wire Line
+	7000 3800 7650 3800
+Text Label 7200 3800 0    50   ~ 0
+PRESSURE
+$Comp
+L MPX10DP:MPX10DP U?
+U 1 1 5B075FA3
+P 900 5900
+F 0 "U?" H 1005 6267 50  0000 C CNN
+F 1 "MPX10DP" H 1005 6176 50  0000 C CNN
+F 2 "SIP1067W46P254L2946H2934Q4P" H 900 5900 50  0001 L BNN
+F 3 "7.45 USD" H 900 5900 50  0001 L BNN
+F 4 "MPX10DP" H 900 5900 50  0001 L BNN "Field4"
+F 5 "Pressure Sensor 0kPa to 10kPa Differential 4-Pin Case 344C-01 Tray" H 900 5900 50  0001 L BNN "Field5"
+F 6 "Good" H 900 5900 50  0001 L BNN "Field6"
+F 7 "SIP-4 NXP Semiconductors" H 900 5900 50  0001 L BNN "Field7"
+F 8 "Freescale Semiconductor" H 900 5900 50  0001 L BNN "Field8"
+	1    900  5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5900 1500 5900
+Wire Wire Line
+	1500 5900 1500 5850
+Wire Wire Line
+	1500 5850 1650 5850
+Wire Wire Line
+	1650 6050 1500 6050
+Wire Wire Line
+	1500 6050 1500 6000
+Wire Wire Line
+	1500 6000 1300 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5B0777E5
+P 1350 6200
+F 0 "#PWR?" H 1350 5950 50  0001 C CNN
+F 1 "GND" H 1355 6027 50  0000 C CNN
+F 2 "" H 1350 6200 50  0001 C CNN
+F 3 "" H 1350 6200 50  0001 C CNN
+	1    1350 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 6200 1350 6100
+Wire Wire Line
+	1350 6100 1300 6100
+$Comp
+L power:VCC #PWR?
+U 1 1 5B07859D
+P 1300 5600
+F 0 "#PWR?" H 1300 5450 50  0001 C CNN
+F 1 "VCC" H 1317 5773 50  0000 C CNN
+F 2 "" H 1300 5600 50  0001 C CNN
+F 3 "" H 1300 5600 50  0001 C CNN
+	1    1300 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5600 1300 5800
+$EndSCHEMATC

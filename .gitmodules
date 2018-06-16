@@ -1,0 +1,9 @@
+[submodule "hardware/counter-pneumatic-v1/lib/kicad-pcblib"]
+	path = hardware/counter-pneumatic-v1/lib/kicad-pcblib
+	url = https://github.com/cpavlina/kicad-pcblib.git
+[submodule "hardware/counter-pneumatic-v1/lib/mysensors_symbols"]
+	path = hardware/counter-pneumatic-v1/lib/mysensors_symbols
+	url = https://github.com/mysensors-kicad/mysensors_symbols.git
+[submodule "hardware/counter-pneumatic-v1/lib/kicad-schlib"]
+	path = hardware/counter-pneumatic-v1/lib/kicad-schlib
+	url = https://github.com/cpavlina/kicad-schlib.git

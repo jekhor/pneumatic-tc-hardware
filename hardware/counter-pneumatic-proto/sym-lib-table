@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name mysensors_arduino)(type Legacy)(uri ${KIPRJMOD}/lib/mysensors_symbols/mysensors_arduino.lib)(options "")(descr ""))
+  (lib (name mysensors_sensors)(type Legacy)(uri ${KIPRJMOD}/lib/mysensors_symbols/mysensors_sensors.lib)(options "")(descr ""))
+  (lib (name MPX10DP)(type Legacy)(uri ${KIPRJMOD}/lib/MPX10DP/MPX10DP.lib)(options "")(descr ""))
+)
