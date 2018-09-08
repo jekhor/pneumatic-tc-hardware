@@ -1,4 +1,4 @@
-update=Вт 17 июл 2018 01:42:33
+update=Сб 08 сен 2018 12:41:20
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/tmp/
+PlotDirectoryName=output/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
